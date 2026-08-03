@@ -1,10 +1,8 @@
-![Will It Fit? — initial state](screenshots/initial-state.png)
+![Will It Fit? demo](screenshots/demo.gif)
 
 # Will It Fit?
 
 Snap a photo of your furniture (or generate one with AI), snap a photo of the doorway, and let Gemini tell you if you're about to have a very bad moving day.
-
-![Both images loaded, ready to analyze](screenshots/mid-flow.png)
 
 ## Quick Start
 
@@ -31,6 +29,10 @@ npm run dev
 1. **Upload or generate an object** — drag a photo into the "Object" zone, or type a description and let Imagen 4.0 generate one. Quick presets (sofa, armchair, bicycle, etc.) are one click away.
 2. **Upload a photo of the space** — your doorway, hallway, stairwell, whatever the object needs to pass through.
 3. **Hit "Will It Fit?"** — Gemini 2.5 Flash analyzes both images, estimates dimensions using visual cues (door knobs, light switches, known object sizes), considers diagonal tilting and maneuvering, and returns a verdict: **Yes**, **Tight**, or **No** with a detailed explanation.
+
+![Both images loaded, ready to analyze](screenshots/mid-flow.png)
+
+![AI verdict with dimension analysis](screenshots/result-state.png)
 
 ## Tech Stack
 
